@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+.header{
+    display: flex;
+    width: 100%;
+    background-color: #1F2937;
+    padding: 10px 20px;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    flex: 2;
+    gap: 16px;
+    font-size: 20px;
+    color: white;
+    margin-right: 30px;
+}
+.logo{
+    font-style: 'Roboto';
+    flex: 1;
+    color: white;
+    padding: 10px 20px;
+    font-size: 32px;
+    margin-left: 45px;
+}
