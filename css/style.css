@@ -19,8 +19,8 @@ ul{
     display: flex;
     justify-content: flex-end;
     flex: 2;
-    gap: 16px;
-    font-size: 20px;
+    gap: 24px;
+    font-size: 24px;
     color: white;
     margin-right: 30px;
 }
@@ -41,6 +41,7 @@ ul{
     width: 100%;
     align-items: center;
     background-color: #1F2937;
+    padding-bottom: 150px;
 }
 .hero-text{
     flex: 1;
@@ -51,6 +52,7 @@ ul{
     flex: 1;
     display: flex;
     justify-content: center;
+    margin-left: 400px;
 }
 .hero-image img{
     margin-top: 40px;
@@ -61,13 +63,13 @@ ul{
     margin-top: 40px;
     font-size: 48px;
     font-weight: 900;
-    margin-left: 75px;
+    margin-left: 40px;
     color: white;
 }
 .sub-text{
-    font-size: 18px;
+    font-size: 24px;
     color: #E5E7EB;
-    margin-left: 75px;
+    margin-left: 40px;
     margin-top: -14px;
     text-align: justify;
 }
@@ -75,12 +77,12 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 6px 14px;
+    padding: 12px 24px;
     font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
     border-radius: 6px;
     border: none;
-    margin-top: 10px;
-    margin-left: 75px;
+    margin-top: 12px;
+    margin-left: 40px;
   
     background: #6E6D70;
     box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
@@ -93,11 +95,14 @@ ul{
     box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
   outline: 0;
 }
-
+.container-info{
+    margin-top: 100px;
+}
 .info-text{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: -50px;
+    margin-bottom: 50px;
 }
 .photo{
     display: flex;
@@ -105,9 +110,10 @@ ul{
     justify-content: center;
     align-items: center;
     gap: 24px;
+    
 }
 .photo img{
-    margin-top: 20px;
+    margin-top: 10px;
     max-width: 160px;
     width: 160px;
     height: 160px;
@@ -129,4 +135,115 @@ ul{
     font-weight: 600;
     font-style: italic;
 }
+.testimonial{
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    margin-bottom: 15px;
+}
+.testimonial-text{
+    font-size: 36px;
+    margin-top: 150px;
+}
+.testimonial-author{
+    font-weight: 800;
+    padding-left: 550px;
+    margin-bottom: 150px;
+}
+.call-action{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-top: 50px;
+}
+.call-text{
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
+    border-radius: 15px;
+    padding: 15px 200px;
+    margin-top: 75px;
 
+}
+.but-container{
+    display: flex;
+    justify-content: center;
+    padding-left: 500px;
+}
+.main-call{
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    color: #f9faf8;
+    padding-top: 40px;
+}
+.sub-call{
+    display: flex;
+    font-size: 14px;
+    color: #E5E7EB;
+    border: 10px solid black;
+}
+.bot-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 400px;
+}
+.action{
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 25px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 100px;
+}
+.service-text{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 14px;
+}
+.services-sub{
+    font-size: 18px;
+    color: white;
+}
+.services{
+    flex: 1;
+    margin-top: 40px;
+    margin-right: 80px;
+    margin-left: 100px;
+}
+.contact{
+    margin-top: 40px;
+    margin-right: 80px;
+}
+.service-btton{
+    flex: 1;
+    font-size: 15px;
+    padding: 15px 40px;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: #f9faf8;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 40px;
+    margin-right: 20px;
+    background: #3882F6;
+    color: #f9faf8;
+}
+.service-btton:hover{
+    background: #0056b3;
+    color: black;
+}
+.footer{
+    font-size: 18px;
+    display: flex;
+    background-color: #1F2937;
+    color: #f9faf8;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 35px 0px;  
+}
